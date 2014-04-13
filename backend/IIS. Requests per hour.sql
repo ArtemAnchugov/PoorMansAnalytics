@@ -1,0 +1,1 @@
+SELECT TO_STRING(QUANTIZE(TO_TIME(TO_TIMESTAMP(date, time)), 3600),'HH') As [Time of the day], COUNT(*) AS [Hits]  INTO '%outputPath%' FROM  '%logPath%' GROUP BY [Time of the day] ORDER BY [Time of the day]
