@@ -19,7 +19,7 @@
 		Graph.urlVsHits('data/IIS. Top 15 popular requests.csv', 'graph2', 'Top 15 popular requests');
 		$.get('data/PMA. The most expensive request.CSV', function(r) { 
 			var mostExpensiveRequest = r.split('\n')[1];
-			Graph.timeOfTheDayVsTime('data/IIS. Time-taken depending on time of the day.csv', 'graph3', 'Time-taken for \'' + mostExpensiveRequest + '\', depending on time of the day');
+			Graph.timeOfTheDayVsTime('data/IIS. Time-taken depending on time of the day. ' + mostExpensiveRequest.replace('/','⁄')+ '.csv', 'graph3', 'Time-taken for \'' + mostExpensiveRequest + '\', depending on time of the day');
 		});
 		Graph.timeOfTheDayVsHits('data/IIS. Requests per hour.csv', 'graph4', 'IIS hits, depending on time of the day');
 	});
