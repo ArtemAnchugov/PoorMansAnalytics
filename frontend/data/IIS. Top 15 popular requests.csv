@@ -1,15 +1,16 @@
 URL,Hits,Cost,Average execution time,Max execution time,Min execution time
-/data/IIS.+Top+15+popular+requests.CSV,20,6,0,3,0
-/data/IIS.+Top+15+expensive+requests.CSV,20,3,0,3,0
-/data/PMA.+The+most+expensive+request.CSV,20,4,0,3,0
-/data/IIS.+Requests+per+hour.CSV,20,4,0,3,0
-/,20,12,0,4,0
-/scripts/jquery-2.1.0.min.js,19,43,2,27,0
-/styles.css,19,4,0,2,0
-/scripts/pma.js,19,12,0,8,0
-/scripts/dygraph-combined.js,19,71,3,56,0
-/fonts/HelveticaNeue-Light.ttf,17,24,1,6,0
-/data/IIS.+Time-taken+for+the+most+expensive+request+depending+on+time+of+the+day.CSV,17,3,0,1,0
-/favicon.ico,12,2,0,1,0
-/fonts/HelveticaNeue-Medium.ttf,3,63,21,50,6
-/pma.html,2,77,38,77,0
+/data/PMA. The most expensive request.CSV,106,8,0,1,0
+/data/IIS. Requests per hour.csv,106,5,0,1,0
+/,106,349,3,113,0
+/data/IIS. Top 15 popular requests.csv,106,7,0,1,0
+/data/IIS. Top 15 expensive requests.csv,106,10,0,2,0
+/scripts/jquery-2.1.0.min.js,104,75,0,29,0
+/scripts/dygraph-combined.js,104,118,1,57,0
+/styles.css,103,20,0,3,0
+/scripts/pma.js,103,32,0,10,0
+/favicon.ico,66,17,0,2,0
+/data/IIS. Time-taken depending on time of the day.csv,29,11,0,1,0
+/data/IIS. Time-taken depending on time of the day. /.csv,2,2,1,1,1
+a,0,0,0,0,0
+b,0,0,0,0,0
+c,0,0,0,0,0
