@@ -1,6 +1,11 @@
-﻿$iisLogsFolderPath = "C:\inetpub\logs\LogFiles\W3SVC1\"
-$outputFolderPath = "C:\inetpub\wwwroot\data\"
-$pathToLogParser = "C:\Program Files (x86)\Log Parser 2.2\LogParser.exe"
+﻿Param (
+	[parameter(Mandatory=$false)] 
+	[string]$iisLogsFolderPath = "C:\inetpub\logs\LogFiles\W3SVC1\",
+	[parameter(Mandatory=$false)] 
+	[string]$outputFolderPath = "C:\inetpub\wwwroot\data\",
+	[parameter(Mandatory=$false)] 
+	[string]$pathToLogParser = "C:\Program Files (x86)\Log Parser 2.2\LogParser.exe"
+)
 
 $yesterdaysLogFileName = [String]::Format("u_ex{0}.log", (get-date).ToUniversalTime().AddDays(-1).ToString('yyMMdd'))
 $yesterdaysLogFilePath = [IO.Path]::Combine($iisLogsFolderPath,  $yesterdaysLogFileName)
