@@ -2,7 +2,7 @@
 	[parameter(Mandatory=$false)] 
 	[string]$iisLogsFolderPath = "C:\inetpub\logs\LogFiles\W3SVC1\",
 	[parameter(Mandatory=$false)] 
-	[string]$outputFolderPath = "C:\inetpub\wwwroot\data\",
+	[string]$outputFolderPath = "C:\inetpub\wwwroot\analytics\data\",
 	[parameter(Mandatory=$false)] 
 	[string]$pathToLogParser = "C:\Program Files (x86)\Log Parser 2.2\LogParser.exe"
 )
